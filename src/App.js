@@ -1,5 +1,6 @@
 import './App.css';
 import { wordList } from './wordList';
+import Row from './components/Row';
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      Hello world {randomWord}
+      What's the word? {randomWord}
+      <Row guess='house'/>
     </div>
   );
 }

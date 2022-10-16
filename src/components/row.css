@@ -1,0 +1,10 @@
+.row {
+  background-color: rgb(158, 103, 210);
+  display: flex;
+  width: fit-content;
+  margin: 8px auto;
+}
+
+.top-row {
+  margin-top: 20px;
+}
