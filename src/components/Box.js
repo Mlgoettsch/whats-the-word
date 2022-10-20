@@ -3,7 +3,7 @@ import './box.css';
 const Box = ({ letter }) => {
   return (
     <div className='box'>
-      { letter }
+        { letter }
     </div>
   );
 };
